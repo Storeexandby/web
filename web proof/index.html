@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store exandby</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Tienda de Ropa</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de bienvenida -->
+    <section id="inicio" class="bienvenida">
+        <h2>Bienvenido a nuestra tienda online</h2>
+        <p>Descubre las últimas tendencias en ropa y accesorios para todos los estilos.</p>
+    </section>
+
+    <!-- Sección de productos -->
+    <section id="productos" class="productos">
+        <h2>Productos</h2>
+        <div class="producto">
+            <div class="producto-info">
+                <h3>Camisa Casual</h3>
+                <p>Camisa de algodón cómoda para el día a día.</p>
+                <span>$29.99</span>
+            </div>
+        </div>
+        <div class="producto">
+            <div class="producto-info">
+                <h3>Pantalón Deportivo</h3>
+                <p>Pantalón de tela ligera ideal para hacer ejercicio.</p>
+                <span>$34.99</span>
+            </div>
+        </div>
+        <div class="producto">
+            <div class="producto-info">
+                <h3>Chaqueta de Invierno</h3>
+                <p>Chaqueta abrigada perfecta para el frío.</p>
+                <span>$59.99</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna duda? Contáctanos y te ayudaremos.</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Tienda de Ropa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
